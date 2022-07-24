@@ -1,10 +1,8 @@
-import java.lang.Math;
 import java.util.ArrayList;
 import java.util.Collections;
 
 import auto.Auto;
 import auto.Camion;
-import auto.Motor;
 import auto.TodoTerreno;
 import auto_constructores.AutoDirector;
 import auto_constructores.CamionConstructor;

@@ -1,12 +1,8 @@
 package auto_constructores;
 
-import auto.Auto;
-
 public class AutoDirector {
 	
 	private AutoConstructor constructor;
-	
-	
 	
 	public AutoDirector(AutoConstructor constructor) {
 		super();
