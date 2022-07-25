@@ -55,8 +55,8 @@ public class Auto {
 
 	@Override
 	public String toString() {
-		return "Auto [motor=" + motor + ", marca=" + marca + ", modelo=" + modelo + ", totalAverias=" + totalAverias
-				+ ", cantidadEjes=" + cantidadEjes + "]";
+		return "Auto: marca=" + marca + ", modelo=" + modelo + ", motor=" + motor 
+				+ ", cantidadEjes=" + cantidadEjes + ", totalAverias=" + totalAverias ;
 	}
 	
 	

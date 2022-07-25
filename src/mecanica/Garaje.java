@@ -10,8 +10,6 @@ public class Garaje {
     private Map<Auto, Reparador> autosAveriados ;
     private int capacidad;
     
-    
-
     public Garaje(int capacidad) {
 		super();
 		this.capacidad = capacidad;
@@ -69,7 +67,8 @@ public class Garaje {
     		Auto auto = it.next();
     		Reparador reparador = autosAveriados.get(auto);
     		
-    		System.out.println("\nReparando auto marca " + auto.getMarca() + " y modelo " + auto.getModelo());
+    		System.out.println("\nReparando auto marca " + auto.getMarca() +
+    				" y modelo " + auto.getModelo());
     		reparador.repararAveria(auto);
     		
     	}

@@ -20,7 +20,7 @@ public class TodoTerreno extends Auto {
 
 	@Override
 	public String toString() {
-		return "TodoTerreno [traccion4WD=" + traccion4WD + " " + super.toString() + "]";
+		return "TodoTerreno: traccion4WD=" + traccion4WD + " " + super.toString();
 	}
 
 	

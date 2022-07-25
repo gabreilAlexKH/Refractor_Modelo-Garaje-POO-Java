@@ -8,7 +8,7 @@ public class Camion extends Auto {
 
 	@Override
 	public String toString() {
-		return "Camion [" + super.toString() + "]";
+		return "Camion:" + super.toString();
 	}
 
 	
